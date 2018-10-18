@@ -1,0 +1,21 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+
+<form method="post" action="">
+    <p>Введите имя: </p><input type="text" name="name"/>
+    <p>Введите фамилию: </p><input type="text" name="surname"/>
+    <br><br><br>
+    <input type="submit" value="Подтвердить">
+</form>
+
+</body>
+
+<div style="background-color:lightblue; width:25%; text-align:center" th:utext="${concat}"></div>
+
+</html>
